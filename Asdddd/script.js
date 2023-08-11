@@ -24,7 +24,7 @@ function gen() {
     if (!onc.NetworkConfigurations[0]) return;
     var link = document.createElement("a");
     link.href = URL.createObjectURL(new Blob([JSON.stringify(onc)]));
-    link.download = "caub.onc";
+    link.download = "asd.asd";
     link.click();
     link.remove();
   } catch (error) {
